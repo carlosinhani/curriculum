@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: black;
+    background-color:burlywood;
     color: white;
     
 }
@@ -16,8 +16,13 @@ h3 {
 }
 
 .frontEnd{
-    text-align: center;
-    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 100px;
+    text-align: justify;
+    font-size: 60px;
+    background-color:teal;
 }
 
 .navbar{
@@ -39,6 +44,7 @@ h3 {
     text-align: start;
     margin-left: 100px;
     font-size: 20px;
+    color: blue;
   
 }
  
