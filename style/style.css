@@ -1,5 +1,5 @@
 body{
-    background-color:burlywood;
+    background-color:gray;
     color: white;
     text-align: justify;
     
@@ -19,6 +19,7 @@ h1 {
 h2{
     padding-top: 150px;
     padding-top: 150px;
+    margin-bottom: 150px;
     text-align: center;
 }
 
@@ -63,7 +64,13 @@ h3 {
     margin-left: 100px;
     font-size: 20px;
     color: blue;
+    text-align: center;
   
+}
+
+.logo{
+    padding: 10px;
+    padding-top: 15px;
 }
  
 .xp {
@@ -84,9 +91,13 @@ h3 {
 
 .rede{
     text-align: center;
-    background-color:#636e72;
+    background-color: #2c3e50;
     padding: 10px;
 
+}
+.contatos{
+    text-align:center;
+    font-size: 20px;
 }
 
 .projetos{
@@ -102,11 +113,16 @@ h3 {
 }
 
 .link{
+
     padding: 10px;
 }
 
 .face{
     padding: 10px;
+}
+
+.dig{
+    padding: 5px;
 }
 
 .dev{
@@ -115,4 +131,18 @@ h3 {
     font-size: 20px;
     margin-left: 150px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor:pointer;
+}
+
+.carrosel{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+
 }

@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+        
         <title>Minha Pagina</title>
     </head>
         <body>
@@ -22,6 +24,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#redeSociais">Rede Sociais</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#certificados">Certificados</a>
+                            </li>
                         </ul>
                     </div>
                 </div>    
@@ -36,53 +41,100 @@
                <p> Front-End </p>
                
            </div>
-          </div>
+           </div>
            <section id="cursos-bar"> 
                 <div>
                     <h3>Cursos</h3>
                 </div>
 
                     <div class="cursos2">
-                      
-                        <img src="imgs/abaco-white.png" width="10%" height="10%">
-                            <p><b>Ábaco Escola de  Computação:</b> Introdução à Micro Informática</p>
-                                             
-                        <img src="imgs/logo_micro_mota.jpg" width="7%" height="7%">
-                        <p><b>Micro Mota Informática:</b> Windons, Técnicas Antivírus, Compactadores de Arquivos,
-                        <br> Word, Introdução ao Hardware, Power Point, Excel, Corel Draw e Photo Shop.</p>
-                     
-                        <img src="imgs/logoDrMicroNet.jpg" width="6%" height="6%">
-                        <p><b>Dr.Micronet:</b> Introdução à Informática,Windows, Word, Power Point,
-                        <br> Excel, Tecnicas de Vendas, Access e Corel Draw. </p>
-                    
-                        <img src="imgs/seculo XXI.png" class="rounded-circle" width="5%" height="5%">
-                        <p><b>Século XXI Informática:</b> Firework, Flash, HTML,
-                        <br> Dreamweaver e Profissional de Web Design.</p>
-                
-                        <img src="imgs/devSamurai.png" width="10%" height="10%">
-                        <p><b>Dev Samurai:</b> Programar do Zero, JSNinja, Calculadora IMC,
-                        <br>Projeto Lista de Leitura e Projeto Smart Money.</p>
-                    
-                        <img src="imgs/digital_innovation_one.png" width="10%" height="10%">
-                        <p><b>Digital Innovation One:</b>: Introdução a criação de websites com HTML5 e CSS3, Programação para internet com JavaScript, 
-                        <br>Introdução ao GitHub e comandos para  trabalhar em equipe, Introdução ao Git e controle de versões, Criando aplicações móveis multiplataforma com React  Native,
-                        <br>Conceito de responsividade e experiência do usuário, Introdução à biblioteca JQuery, Desmistificando Map, filter e reduce, Lógica de programação essencial,
-                        <br>Construindo páginas para internet com Bootstrap, Como funciona async/await, Desenvolvimento avançado com JavaScript ES6,
-                        <br> HTML Web Developer e JavaScript Game Developer</p>
-                    
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img class="logo" src="imgs/abaco-white.png" width="30%" height="15%">
+                                    <p><b>Ábaco Escola de  Computação:</b> Introdução à Micro Informática</p>
+                                                    
+                                <img class="logo" src="imgs/logo_micro_mota.jpg" width="30%" height="15%">
+                                <p><b>Micro Mota Informática:</b> Windons, Técnicas Antivírus, Compactadores de Arquivos,
+                                <br> Word, Introdução ao Hardware, Power Point, Excel, Corel Draw e Photo Shop.</p>
+                                 
+                                <img class="logo" src="imgs/digital_innovation_one.png" width="40%" height="15%">
+                                  <p><b>Digital Innovation One:</b>: Introdução a criação de websites com HTML5 e CSS3, Programação para internet com JavaScript 
+                                  <br>Introdução ao GitHub e comandos para  trabalhar em equipe.
+                                  <br>Introdução ao Git e controle de versões, Criando aplicações móveis multiplataforma com React  Native.
+                                  <br>Conceito de responsividade e experiência do usuário, Introdução à biblioteca JQuery, Desmistificando Map, filter e reduce, Lógica de programação essencial.
+                                  <br>Construindo páginas para internet com Bootstrap, Como funciona async/await, Desenvolvimento avançado com JavaScript ES6.
+                                  <br> HTML Web Developer e JavaScript Game Developer</p>
+                                
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="imgs/seculo XXI.png" class="rounded-circle" width="15%" height="15%">
+                                  <p><b>Século XXI Informática:</b> Firework, Flash, HTML,
+                                  <br> Dreamweaver e Profissional de Web Design.</p>
+                        
+                                <img class="logo" src="imgs/devSamurai.png" width="35%" height="15%">
+                                  <p><b>Dev Samurai:</b> Programar do Zero, JSNinja, Calculadora IMC,
+                                  <br>Projeto Lista de Leitura e Projeto Smart Money.</p>
+                            
+                                
+                                  <img class="logo" src="imgs/logoDrMicroNet.jpg" width="30%" height="15%">
+                                  <p><b>Dr.Micronet:</b> Introdução à Informática,Windows, Word, Power Point,
+                                  <br> Excel, Tecnicas de Vendas, Access e Corel Draw. </p>
+                            </div>
+                        </div>                    
                     </div>    
             </section>
-           
-            <section class="projetos">
+            <section id="certificados"> 
                 <h2>CERTIFICADOS</h2>
-                
-                    <li>
-                     <a href="https://certificates.digitalinnovation.one/4277C937">Diploma</a>
-                    </li> 
-                    <li>
-                     <a href="https://photos.google.com/album/AF1QipPabl9KeCUu0DjVChX81xiuVUfrgiAmOUcYD1_y/photo/AF1QipMFAIqyf0aGrF1fA4QiejrZV0vWluafyAOWXtxy" target="_blank">Micro Mota</a>
-                    </li>
+          
+            
+
+
+
+                  <div class="carrosel">
+                      <div class="owl-carousel owl-theme">
+                    <div>
+                     <img class="box" src="imgs/Certificados/Programação internet Java Script.jpg" >   
+                         <a href="https://certificates.digitalinnovation.one/4277C937" target="_blank">Programação internet Java Script</a>
+                    </div>
+                    <div>
+                     <img class="box" src="imgs/Certificados/mIcroMota 1 Semestre.jpg" >   
+                        <a href="https://photos.google.com/album/AF1QipPabl9KeCUu0DjVChX81xiuVUfrgiAmOUcYD1_y/photo/AF1QipMFAIqyf0aGrF1fA4QiejrZV0vWluafyAOWXtxy" target="_blank">Micro Mota 1º Semestre</a>
+                    </div>
+                    <div>
+                        <img class="box" src="imgs/Certificados/mIcroMota 2 Semestre.jpg" >   
+                        <a href="https://photos.google.com/share/AF1QipN9tXQO8MFkphw2s5-cFPC0yaXXVPLMSBUxU0Kb3svcoZu7fhe0zXN48dQ9xFIw5w/photo/AF1QipOurMO38zsPMYeJwYOLSw_fO0cei9zlRumUejMB?key=MzdySGQ5YjJNQmVzSVJEMTZCQVZnTmxBUC1KMU9R" target="_blank"> Micro Mota 2º Semestre</a>
+                   </div>
+                      <div>
+                   <img class="box" src="imgs/Certificados/abacoCertificado.jpg" >   
+                       <a href="https://photos.google.com/share/AF1QipN9tXQO8MFkphw2s5-cFPC0yaXXVPLMSBUxU0Kb3svcoZu7fhe0zXN48dQ9xFIw5w/photo/AF1QipNfhGf4eMMefjwmsAGUr7CyUdRppQxl7UOKjM2x?key=MzdySGQ5YjJNQmVzSVJEMTZCQVZnTmxBUC1KMU9R" target="_blank"> Ábaco Introdução a Micro Computação</a>
+                    </div>
+                    <div>
+                        <img class="box" src="imgs/Certificados/Programação internet Java Script.jpg" >   
+                            <a href="https://certificates.digitalinnovation.one/4277C937" target="_blank">Programação internet Java Script</a>
+                       </div>
+                       <div>
+                        <img class="box" src="imgs/Certificados/Programação internet Java Script.jpg" >   
+                            <a href="https://certificates.digitalinnovation.one/4277C937" target="_blank">Programação internet Java Script</a>
+                       </div>
+                       <div>
+                        <img class="box" src="imgs/Certificados/Programação internet Java Script.jpg" >   
+                            <a href="https://certificates.digitalinnovation.one/4277C937" target="_blank">Programação internet Java Script</a>
+                       </div>
+                       <div>
+                        <img class="box" src="imgs/Certificados/Programação internet Java Script.jpg" >   
+                            <a href="https://certificates.digitalinnovation.one/4277C937" target="_blank">Programação internet Java Script</a>
+                       </div>
+                       <div>
+                        <img class="box" src="imgs/Certificados/Programação internet Java Script.jpg" >   
+                            <a href="https://certificates.digitalinnovation.one/4277C937" target="_blank">Programação internet Java Script</a>
+                       </div>
+                   </div>
+                   </div>
+               
             </section>
+
+
+
 
             <section id="experienciaProfissional">
                    <div class="container-fluid experienciaProfissional text-center margin experienciaProfissional">
@@ -90,7 +142,7 @@
                         <div class="container-fluid">
                              <div class="row">
 
-                                <div class="col-lg-4">   
+                                <div >   
                                     <div class="cursos2">
                                         <img src="imgs/limaSoftware.png" width="50%" height="50%">
                                           <div class="xp">
@@ -127,12 +179,17 @@
                         </div>
                     </div>   
             </section>  
-
+        
             <section id="redeSociais">
                     <div class="rede">
                         <p class="dev"> Desenvolvedor: Carlos Rodrigo Inhani
-                                   <br> celular:(18) 99654-7334
-                                   <br> Cândido Mota/SP </p> 
+                                   <br> Enderço: Rua Paulino Tondatti nº 132
+                                   <br> Bairro: Vila Virginia
+                                   <br> Cidade: Cândido Mota/SP 
+                                   <div class="contatos">
+                                   <br> <i class="fab fa-whatsapp"></i>(18)99654-7334
+                                   <br> <i class="far fa-envelope"> carlos.inhani@gmail.com</i></p>           
+                                  </div> 
                              
                         <a class="git" href="https://github.com/carlosinhani" target="_blank">
                                    <img src="imgs/GITHUB-LOGO.png" width="4%" height="4%"></a>
@@ -141,9 +198,16 @@
                                 <img src="imgs/linkedin.png" width="3%" height="3%"></a>
                                                     
                         <a class="face" href="https://www.facebook.com/carlosrodrigoinhani" target="_blank">
-                                <img src="/imgs/fcbook.png" width="3%" height="3%"></a>
+                                <img src="imgs/fcbook.png" width="3%" height="3%"></a>
+
+                        <a class="dig" href="https://web.digitalinnovation.one/users/carlos_inhani" target="_blank">
+                                <img src="imgs/digital_innovation_one.png" width="10%" height="10%"></a>       
                     </div> 
             </section>
+            <script src="https://kit.fontawesome.com/d767f5f8e6.js" crossorigin="anonymous"></script>
+            <script src="js/owl/jquery.min.js"></script>    
+            <script src="js/owl/owl.carousel.min.js"></script>  
+            <script src="js/owl/setup.js"></script>  
                 
         </body>
 </html>
