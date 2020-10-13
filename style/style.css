@@ -30,7 +30,8 @@ h2{
     font-weight: bold;
     font-style: italic; 
     font-size: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .carlitos{
@@ -76,20 +77,27 @@ h2{
 }
  
 .xp {
-    font-size: 20px;
     text-align: justify;
-    color: black;
+    font-size: 20px;
     margin-left: 120px;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: black;
+}
+.exp{
+    font-family: monospace;
+    font-style: italic;
 }
 
 .nAmerica{
-    font-size: 20px;
     margin-left: 150px;
     text-align: justify;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     color: black;
-}
+}  
 
 .rede{
     text-align: center;
@@ -104,14 +112,12 @@ h2{
     padding-right: 15px;
 }
 
-.projetos{
-    color: white;
-    text-align: left;
-    margin-left: 100px;
-    font-family: fantasy;
-    font-size: 35px;
+.projRepo{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: italic;
 }
-
 .git{
     padding-top: 15px;
 }
@@ -150,3 +156,11 @@ h2{
     font-weight: bolder;
 
 }
+
+/*.projetos{
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+    font-family: fantasy;
+    font-size: 35px;
+}*/
