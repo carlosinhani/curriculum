@@ -59,7 +59,7 @@ h1 {
     font-style: italic;
     padding-left: 100px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 65px;
     text-align: star;
     font-size: 70px;
 }
@@ -175,7 +175,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
-    padding-right: 160px;
+    padding-right: 100px;
     color: thistle;
 }
 
