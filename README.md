@@ -38,7 +38,6 @@ Social network:
 
 
 
-```
 
 Desenvolvido: Carlos Rodrigo
 
