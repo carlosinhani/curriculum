@@ -1,7 +1,7 @@
 ## Welcome to the curriculum
 
 
-## Desenvolvedor Front-end
+## Desenvolvedor Front-end jr.
 
 
 ## Curriculum programming language:  
